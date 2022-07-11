@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+.profil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 25%;
+
+}
+h1{
+    text-align: center;
+    font-size: 81px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-weight: 500;
+    margin-right: 10px;
+}
+.profil-photo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+    margin-bottom: 20px;
+    border-radius: 5%;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    -ms-border-radius: 5%;
+    -o-border-radius: 5%;
+    border: 2px solid #000;
+    box-shadow: -10px 10px 2px 1px #000;
+}
+.photouser{
+    width: 300px;
+    height: 300px;
+    margin-top: 25px;
+    border-radius: 5%;
+    border: 2px solid #000;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    -ms-border-radius: 5%;
+    -o-border-radius: 5%;
+}
+.pseudouser{
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+.partage{
+    width: 75%;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #69DC8A;
+    border-radius:5px ;
+    -webkit-border-radius:5px ;
+    -moz-border-radius:5px ;
+    -ms-border-radius:5px ;
+    -o-border-radius:5px ;
+    box-shadow: -10px 10px 2px 1px #41C2F4;
+}
+button{
+    background-color:#F9B532;
+    margin-bottom: 20px;
+    border:none;
+    border-radius: 30px;
+    cursor: pointer;
+    width: 300px;
+    height: 100px;
+    font-size: 40px;
+    font-weight: 600;
+    box-shadow: -10px 10px 2px 1px  black;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+.section1{
+    background-color: #41C2F4;
+    width: 75%;
+    display: block;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    border-radius:5px ;
+    -webkit-border-radius:5px ;
+    -moz-border-radius:5px ;
+    -ms-border-radius:5px ;
+    -o-border-radius:5px ;
+    box-shadow: -10px 10px 2px 1px #69DC8A;
+    
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px;
+  
+    
+    
+}
+
+/* .col {
+    width: calc(33% - 80px);
+} */
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 5%;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    -ms-border-radius: 5%;
+    -o-border-radius: 5%;
+    border: 2px solid #000;
+    box-shadow: -10px 10px 2px 1px #000;
+}
+.photosouvenir{
+    width: 300px;
+    height: 300px;
+    margin-top: 25px;
+    border-radius: 5%;
+    border: 2px solid #000;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    -ms-border-radius: 5%;
+    -o-border-radius: 5%;
+}
+.lieusouvenir{
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
