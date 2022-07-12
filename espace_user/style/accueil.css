@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+h1{
+    text-align: center;
+    font-size: 81px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-weight: 500;
+}
+.section1{
+    background-color: #41C2F4;
+}
+.wrapper{
+    width: 100vw;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.slider{
+    width: 1000px;
+    height: 100px;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+
+}
+.slide{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    animation: slideshow 15s  infinite;
+    -webkit-animation: slideshow 15s  infinite;
+}
+.slide img{
+   height: 100px;
+   padding: 0 40px 0 40px;  
+}
+@keyframes slideshow{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}
+.controls .arrow{
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+}
+.arrow.left{
+    left: 10px;
+}
+.arrow.right{
+    right: 10px;
+}

@@ -112,10 +112,10 @@ if(session_status() === PHP_SESSION_NONE){
         </div>
         </div>
         <div class="logo">
-            <img src="./images/image.jpg" alt="">
+            <img src="./images/logo.svg" alt="">
         </div>
         <div class="login">
-            <a href="login.php"><img src="./images/login.jpg" alt=""></a>
+            <a href="login.php"><img src="./images/login.svg" alt=""></a>
             
         </div>
     </nav>
