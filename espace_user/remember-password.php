@@ -28,7 +28,7 @@ if(!empty($_POST) && !empty($_POST['email'])){
 
 <?php
 
-require "includes/header-loggedin.php";
+require "includes/header.php";
 
 ?>
 

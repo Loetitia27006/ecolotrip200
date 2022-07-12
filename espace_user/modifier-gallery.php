@@ -4,7 +4,9 @@
 
 
 <?php
+require_once "includes/header.php";
 session_start();
+
 $bdd = require_once 'database.php';
 
 if(isset($_GET['id']) && !empty($_GET['id'])){

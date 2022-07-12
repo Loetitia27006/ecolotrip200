@@ -2,7 +2,7 @@
 
 
 require 'includes/functions.php';
-require 'includes/header-loggedin.php';
+require 'includes/header.php';
 
 only_logged();
 

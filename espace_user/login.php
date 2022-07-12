@@ -1,6 +1,7 @@
 
 <?php 
-require "includes/header-loggedin.php";
+$title = 'ECOLOTRIP';
+require "includes/header.php";
 
 require_once 'includes/functions.php';
 reconnect_from_cookie();
@@ -43,26 +44,16 @@ if(!empty($_POST) && !empty($_POST['email']) && !empty($_POST['password'])){
     
 } ?>
 
-
-
-
-
-<?php 
-$title = 'ECOLOTRIP'
-?>
-
-
-
     
-    <h1>Bon retour Triper !</h1>
+    <h1>Bon retour, Triper !</h1>
     <div class="form">
         <form action="" method="post">
             
             <p><input type="email" name="email" id="" placeholder="ton adresse mail"></p>
         
             </p><input type="password" name="password" id="" placeholder="ton mot de passe"></p>
-            <input class="checkbox" type="checkbox" name="remember" value="1"> Se souvenir de moi
-            <p class="connection"><button type="submit">  Se connecter</button></p> 
+            <input class="checkbox" type="checkbox" name="remember" value="1"> se souvenir de moi
+            <p class="connection"><button type="submit">  se connecter</button></p> 
             <div class="inscription">
                 <p class="mdp"><a href="remember-password.php">mot de passe oublié</a></p>
                 <p >pas de compte ?<a href="inscription.php">s'inscrire</a></p>
