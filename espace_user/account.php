@@ -6,7 +6,7 @@ require 'includes/functions.php';
 
 only_logged();
 
-require "includes/header-loggedin.php";
+require "includes/header.php";
 
 ?>
 

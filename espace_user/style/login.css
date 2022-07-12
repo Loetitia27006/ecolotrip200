@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
 *{
     box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+    
 }
 body{
     margin: 0;
-    font-family: 'Quicksand', sans-serif;
+   
 }
 h1{
     text-align: center;
@@ -78,6 +80,7 @@ h1{
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
+    
 }
 input{
     border: none;

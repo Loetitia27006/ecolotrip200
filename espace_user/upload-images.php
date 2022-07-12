@@ -1,5 +1,5 @@
 <?php
-require 'includes/header-loggedin.php';
+require 'includes/header.php';
 $bdd = require "database.php";
 
 if(isset($_POST['submit']) && isset($_FILES['my_image'])) {
